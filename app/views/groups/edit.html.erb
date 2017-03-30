@@ -5,12 +5,12 @@
   <%= form_for @group do |f| %>
 
   标题
-  <br>
   <%= f.text_field :title %>
   <br>
   叙述
-  <%= f.text_area :description %>
   <br>
+  <%= f.text_area :description %>
+  </br>
 
   <%= f.submit "Submit", :disable_with => 'Submiting...' %>
   <% end %>
